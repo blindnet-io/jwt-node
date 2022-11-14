@@ -1,5 +1,5 @@
+const { describe, it } = require('mocha')
 const assert = require('assert')
-const ed = require('noble-ed25519')
 const TokenBuilder = require('../src/index')
 const { toBase64Url, toBase64 } = require('../src/util')
 

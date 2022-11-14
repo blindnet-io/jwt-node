@@ -20,7 +20,8 @@
     "LICENSE"
   ],
   "scripts": {
-    "test": "mocha --reporter=spec test"
+    "test": "mocha --reporter=spec test",
+    "lint": "eslint . --ignore-path .gitignore"
   },
   "engines": {
     "node": ">= 12"
@@ -29,6 +30,7 @@
     "noble-ed25519": "^1.2.6"
   },
   "devDependencies": {
+    "eslint": "^8.27.0",
     "mocha": "^10.1.0"
   }
 }
